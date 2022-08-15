@@ -3,8 +3,8 @@ package server
 import (
 	"bytes"
 	"fmt"
-	"github.com/shopastro/go-common/controller"
-	"github.com/shopastro/logs"
+	"github.com/yousinn/go-common/controller"
+	"github.com/yousinn/logs"
 	"go.uber.org/zap"
 	"io/ioutil"
 	"net/http"

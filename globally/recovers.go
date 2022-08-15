@@ -1,7 +1,7 @@
 package globally
 
 import (
-	"github.com/shopastro/logs"
+	"github.com/yousinn/logs"
 	"go.uber.org/zap"
 	"runtime"
 	"runtime/debug"

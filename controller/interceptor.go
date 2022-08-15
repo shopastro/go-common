@@ -2,7 +2,7 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/shopastro/logs"
+	"github.com/yousinn/logs"
 	"go.uber.org/zap"
 	"strconv"
 )

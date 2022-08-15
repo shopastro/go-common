@@ -2,7 +2,7 @@ package server
 
 import (
 	"fmt"
-	"github.com/shopastro/logs"
+	"github.com/yousinn/logs"
 	"go.uber.org/zap"
 	"runtime"
 	"runtime/debug"
