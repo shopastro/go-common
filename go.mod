@@ -1,4 +1,4 @@
-module github.com/shopastro/go-common
+module github.com/yousinn/go-common
 
 go 1.18
 
