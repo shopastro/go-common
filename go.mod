@@ -1,6 +1,6 @@
 module github.com/yousinn/go-common
 
-go 1.17
+go 1.18
 
 require (
 	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
@@ -15,7 +15,7 @@ require (
 	github.com/uber/jaeger-client-go v2.30.0+incompatible
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/urfave/cli v1.22.9
-	github.com/yousinn/chat-pbx v0.0.0-20220815184839-b18de4f68ba4
+	github.com/yousinn/chat-pbx v1.0.0
 	github.com/yousinn/logs v0.0.0-20220815181245-20b4551bf9af
 	go.uber.org/zap v1.22.0
 	golang.org/x/net v0.0.0-20220812174116-3211cb980234
