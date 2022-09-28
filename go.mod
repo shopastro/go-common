@@ -1,35 +1,31 @@
-module github.com/yousinn/go-common
+module github.com/shopastro/go-common
 
 go 1.18
 
 require (
-	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
 	github.com/fatih/structs v1.1.0
 	github.com/gin-gonic/gin v1.8.1
+	github.com/go-redis/redis/v8 v8.11.5
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/nicksnyder/go-i18n/v2 v2.2.0
 	github.com/opentracing/opentracing-go v1.2.0
+	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.13.0
 	github.com/satori/go.uuid v1.2.0
 	github.com/uber/jaeger-client-go v2.30.0+incompatible
-	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
-	github.com/urfave/cli v1.22.9
+	github.com/urfave/cli v1.22.10
+	github.com/yousinn/chat-pbx v0.0.0-20220920095206-766cd697a38f
+	github.com/yousinn/go-common v0.0.0-20220816180900-b882e521c00c
 	github.com/yousinn/logs v0.0.0-20220815181245-20b4551bf9af
-	go.uber.org/zap v1.22.0
-	golang.org/x/net v0.0.0-20220812174116-3211cb980234
+	go.uber.org/zap v1.23.0
+	golang.org/x/net v0.0.0-20220927171203-f486391704dc
 	golang.org/x/text v0.3.7
-	golang.org/x/time v0.0.0-20191024005414-555d28b269f0
-	google.golang.org/grpc v1.48.0
+	golang.org/x/time v0.0.0-20220922220347-f3bd1da661af
+	google.golang.org/grpc v1.49.0
 	gorm.io/driver/mysql v1.3.6
-	gorm.io/gorm v1.23.8
+	gorm.io/gorm v1.23.10
 	gorm.io/plugin/opentracing v0.0.0-20211220013347-7d2b2af23560
-)
-
-require (
-	github.com/go-redis/redis/v8 v8.11.5
-	github.com/pkg/errors v0.9.1
-	github.com/yousinn/chat-pbx v0.0.0-20220816175110-93efe0a6435a
 	moul.io/http2curl v1.0.0
 )
 
@@ -45,9 +41,11 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/goccy/go-json v0.9.7 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/gopherjs/gopherjs v1.17.2 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
+	github.com/jtolds/gls v4.20.0+incompatible // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
@@ -59,7 +57,8 @@ require (
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/russross/blackfriday/v2 v2.0.1 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
-	github.com/smartystreets/goconvey v1.7.2 // indirect
+	github.com/smartystreets/assertions v1.13.0 // indirect
+	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/ugorji/go/codec v1.2.7 // indirect
 	go.opentelemetry.io/otel v1.9.0 // indirect
 	go.opentelemetry.io/otel/trace v1.9.0 // indirect
