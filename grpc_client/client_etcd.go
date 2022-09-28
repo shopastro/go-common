@@ -4,7 +4,7 @@ import (
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_opentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"github.com/yousinn/logs"
+	"github.com/shopastro/logs"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )

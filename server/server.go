@@ -2,17 +2,6 @@ package server
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"github.com/nicksnyder/go-i18n/v2/i18n"
-	"github.com/opentracing/opentracing-go"
-	"github.com/urfave/cli"
-	"github.com/yousinn/go-common/common"
-	"github.com/yousinn/go-common/controller"
-	"github.com/yousinn/go-common/globally"
-	"github.com/yousinn/go-common/tracer"
-	"github.com/yousinn/logs"
-	"go.uber.org/zap"
-	"golang.org/x/text/language"
 	"log"
 	"net"
 	"net/http"
@@ -20,6 +9,18 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/nicksnyder/go-i18n/v2/i18n"
+	"github.com/opentracing/opentracing-go"
+	"github.com/shopastro/go-common/common"
+	"github.com/shopastro/go-common/controller"
+	"github.com/shopastro/go-common/globally"
+	"github.com/shopastro/go-common/tracer"
+	"github.com/shopastro/logs"
+	"github.com/urfave/cli"
+	"go.uber.org/zap"
+	"golang.org/x/text/language"
 )
 
 type (

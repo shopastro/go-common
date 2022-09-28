@@ -4,12 +4,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/yousinn/chat-pbx/session"
-	"github.com/yousinn/go-common/grpc_client"
-	"github.com/yousinn/logs"
+	"strings"
+
+	"github.com/shopastro/chat-pbx/session"
+	"github.com/shopastro/go-common/grpc_client"
+	"github.com/shopastro/logs"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
-	"strings"
 )
 
 const sessionGrpcClientServiceName = "im-session"

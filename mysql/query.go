@@ -2,9 +2,10 @@ package mysql
 
 import (
 	"fmt"
-	"github.com/yousinn/go-common/common"
-	"gorm.io/gorm"
 	"reflect"
+
+	"github.com/shopastro/go-common/common"
+	"gorm.io/gorm"
 )
 
 type (

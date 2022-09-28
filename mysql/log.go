@@ -2,10 +2,11 @@ package mysql
 
 import (
 	"context"
-	"github.com/yousinn/logs"
+	"time"
+
+	"github.com/shopastro/logs"
 	"go.uber.org/zap"
 	"gorm.io/gorm/logger"
-	"time"
 )
 
 type (

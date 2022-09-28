@@ -2,12 +2,13 @@ package tracer
 
 import (
 	"fmt"
+
 	"github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"
 
+	"github.com/shopastro/logs"
 	"github.com/uber/jaeger-client-go/config"
 	"github.com/uber/jaeger-client-go/zipkin"
-	"github.com/yousinn/logs"
 	"go.uber.org/zap"
 )
 

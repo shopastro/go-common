@@ -2,7 +2,8 @@ package client
 
 import (
 	"fmt"
-	"github.com/yousinn/logs"
+
+	"github.com/shopastro/logs"
 	"go.uber.org/zap"
 	"golang.org/x/net/context"
 )

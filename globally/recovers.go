@@ -1,11 +1,12 @@
 package globally
 
 import (
-	"github.com/yousinn/logs"
-	"go.uber.org/zap"
 	"runtime"
 	"runtime/debug"
 	"time"
+
+	"github.com/shopastro/logs"
+	"go.uber.org/zap"
 )
 
 var Signal = make(chan PanicInformation)

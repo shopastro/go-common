@@ -2,11 +2,12 @@ package goredis
 
 import (
 	"fmt"
+	"time"
+
 	"github.com/go-redis/redis/v8"
-	"github.com/yousinn/logs"
+	"github.com/shopastro/logs"
 	"go.uber.org/zap"
 	"golang.org/x/net/context"
-	"time"
 )
 
 type (

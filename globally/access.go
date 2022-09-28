@@ -1,10 +1,11 @@
 package globally
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/yousinn/logs"
-	"go.uber.org/zap"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/shopastro/logs"
+	"go.uber.org/zap"
 )
 
 type (

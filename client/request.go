@@ -4,14 +4,15 @@ import (
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
-	"github.com/opentracing/opentracing-go"
-	"github.com/yousinn/go-common/common"
-	"github.com/yousinn/go-common/gorequest"
-	"github.com/yousinn/logs"
-	"go.uber.org/zap"
-	"golang.org/x/net/context"
 	"strings"
 	"time"
+
+	"github.com/opentracing/opentracing-go"
+	"github.com/shopastro/go-common/common"
+	"github.com/shopastro/go-common/gorequest"
+	"github.com/shopastro/logs"
+	"go.uber.org/zap"
+	"golang.org/x/net/context"
 )
 
 type (

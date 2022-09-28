@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yousinn/logs"
+	"github.com/shopastro/logs"
 
-	"github.com/yousinn/go-common/common"
+	"github.com/shopastro/go-common/common"
 	"go.uber.org/zap"
 	"golang.org/x/net/context"
 	"gorm.io/driver/mysql"
