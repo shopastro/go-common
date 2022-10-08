@@ -13,8 +13,8 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.13.0
 	github.com/satori/go.uuid v1.2.0
-	github.com/shopastro/chat-pbx v0.0.0-20220928164101-3dd6bebf8914
-	github.com/shopastro/logs v0.0.0-20220928164740-e5102f0aa1d6
+	github.com/shopastro/chat-pbx v1.0.1
+	github.com/shopastro/logs v1.0.1
 	github.com/uber/jaeger-client-go v2.30.0+incompatible
 	github.com/urfave/cli v1.22.10
 	go.uber.org/zap v1.23.0
